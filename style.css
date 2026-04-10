@@ -54,6 +54,7 @@ body,
 @media  (max-width: 550px) {
     .navbar {
         width: 100vw;
+        height: 11vh;
     }
     .nav3 {
         display: none;

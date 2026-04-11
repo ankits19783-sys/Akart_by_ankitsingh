@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 html,
@@ -10,6 +10,7 @@ body,
     height: 100%;
     width: 100%;
 }
+
 /* header start here */
 .navbar {
     height: 12vh;
@@ -51,7 +52,34 @@ body,
     font-weight: 900;
     font-size: 19px;
 }
+/* main start here */
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.img_1 img,
+.img_2 img,
+.img_3 img,
+.img_4 img {
+    height: 250px;
+}
+.img_1,
+.img_2,
+.img_3,
+.img_4{
+    height: 300px;
+    width: 200px;
+}
+/* FOOTER START HERE */
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 @media  (max-width: 550px) {
+    /* Header */
     .navbar {
         width: 100vw;
         height: 11vh;
@@ -65,5 +93,26 @@ body,
     .nav2 input {
         width: 170px;
     }
-    
+    /* Main */
+    .main {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        height: auto;
+    }
+    .img_1,
+    .img_2,
+    .img_3,
+    .img_4 {
+        width: 50%;
+        height: auto;
+    }
+    .img_1 img,
+    .img_2 img,
+    .img_3 img,
+    .img_4 img {
+        height: 250px;
+   }
 }

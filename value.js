@@ -1,5 +1,9 @@
 function getvalue(){
     let input = String(document.getElementById("input").value);
-    console.log(input);
-
+    let toupperinput = input.toUpperCase();
+    if(toupperinput === "SMARTWATCH" || toupperinput === ("SMART WATCH")){
+        window.location = "smartwatch.html"
+    }else{
+        window.location = "index.html"
+    }
 }

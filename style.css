@@ -76,6 +76,8 @@ body,
 .footer {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 100px;
     margin-top: 50px;
     margin-bottom: 30px;
 }
@@ -123,5 +125,9 @@ body,
     .img_3 img,
     .img_4 img {
         height: 250px;
+   }
+   .footer {
+    flex-direction: column;
+    width: 100vw;
    }
 }

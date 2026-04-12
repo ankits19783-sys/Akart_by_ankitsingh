@@ -79,6 +79,14 @@ body,
     margin-top: 50px;
     margin-bottom: 30px;
 }
+#myphoto {
+    height: 70px;
+    width: 150px;
+    background-color: #4e4e4e;
+    color: #ffffff;
+    font-weight: bold;
+
+}
 @media  (max-width: 550px) {
     /* Header */
     .navbar {

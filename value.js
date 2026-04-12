@@ -9,3 +9,6 @@ function getvalue(){
         window.location = "index.html"
     }
 }
+function getphoto(){
+    window.location = "myphoto.html"
+}

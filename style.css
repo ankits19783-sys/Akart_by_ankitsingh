@@ -106,8 +106,12 @@ body,
         width: 100vw;
         height: 11vh;
     }
-    .nav3 {
+    .not {
         display: none;
+    }
+    .profile_icon {
+        display: block;
+        margin-right: 18px;
     }
     .nav2 {
         margin-right: 20px;

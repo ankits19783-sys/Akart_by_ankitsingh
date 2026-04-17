@@ -6,7 +6,7 @@ function getvalue(){
     }else if(toupperinput === "CONDOM"){
         window.location = "condom.html"
     }else{
-        window.location = "index.html"
+        console.log("NOTHING")
     }
 }
 function getphoto(){

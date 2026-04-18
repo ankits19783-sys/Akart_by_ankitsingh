@@ -17,14 +17,11 @@ body,
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: #98f1c5;
+    justify-content: space-evenly;
+    background-color: #f1e1b4;
 }
-.nav1 {
-    margin-left: 20px;
-}
-.nav1 img {
-    height: 60px;
+#profile_icon {
+    display: none;
 }
 .nav2 {
     display: flex;
@@ -70,6 +67,7 @@ body,
 .img_3 img,
 .img_4 img {
     height: 280px;
+    width: auto;
     
 }
 .img_1,
@@ -109,7 +107,7 @@ body,
     .not {
         display: none;
     }
-    .profile_icon {
+    #profile_icon {
         display: block;
         margin-right: 18px;
     }
@@ -128,15 +126,16 @@ body,
     .img_2,
     .img_3,
     .img_4 {
-        width: 40%;
+        width: 43%;
         height: auto;
         gap: 20px;
+        margin-top: 30px;
     }
     .img_1 img,
     .img_2 img,
     .img_3 img,
     .img_4 img {
-        height: 250px;
+        height: 180px;
    }
    .footer {
     width: 100vw;

@@ -17,8 +17,8 @@ body,
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: #98f1c5;
+    justify-content: space-around;
+    background-color: #f1e1b4;
 }
 .nav1 {
     margin-left: 20px;
